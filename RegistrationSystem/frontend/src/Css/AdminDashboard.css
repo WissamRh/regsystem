@@ -1,0 +1,71 @@
+/* AdminDashboard.css */
+
+.admin-dashboard-container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+    .admin-dashboard-container h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+.registration-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.registration-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .registration-item span {
+        font-size: 18px;
+        color: #333;
+    }
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.approve-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.decline-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.approve-button:hover {
+    background-color: #218838;
+}
+
+.decline-button:hover {
+    background-color: #c82333;
+}
